@@ -1,4 +1,7 @@
+#from pathlib import Path
 import pandas as pd
+#file_path = Path("just tacos and burritos.csv").absolute()
+#df = pd.read_csv(str(file_path), sep=",")
 df = pd.read_csv("just tacos and burritos.csv", sep=",")
 # We'll use this data as our main dataset
 
